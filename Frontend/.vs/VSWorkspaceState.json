@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\modules",
+    "\\src\\modules\\core",
+    "\\src\\modules\\core\\section-details",
+    "\\src\\modules\\core\\section-details\\transfers-detail",
+    "\\src\\modules\\core\\widgets",
+    "\\src\\modules\\core\\widgets\\address",
+    "\\src\\modules\\services",
+    "\\src\\modules\\services\\services"
+  ],
+  "PreviewInSolutionExplorer": false
+}

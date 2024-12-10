@@ -1,0 +1,48 @@
+{
+  "name": "intaker",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build --configuration=production",
+    "start": "ng serve --configuration=development"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "15.1.4",
+    "@angular/cdk": "15.1.4",
+    "@angular/common": "15.1.4",
+    "@angular/compiler": "15.1.4",
+    "@angular/core": "15.1.4",
+    "@angular/fire": "^7.5.0",
+    "@angular/flex-layout": "^15.0.0-beta.42",
+    "@angular/forms": "15.1.4",
+    "@angular/material": "15.1.4",
+    "@angular/material-moment-adapter": "15.1.4",
+    "@angular/platform-browser": "15.1.4",
+    "@angular/platform-browser-dynamic": "15.1.4",
+    "@angular/router": "15.1.4",
+    "@microsoft/signalr": "^6.0.5",
+    "@types/googlemaps": "^3.43.3",
+    "angular2-text-mask": "^9.0.0",
+    "core-js": "^2.5.0",
+    "jquery": "^3.6.0",
+    "linq-collections": "^1.0.254",
+    "moment": "^2.29.3",
+    "ngx-clipboard": "^15.1.0",
+    "odata-query": "^6.7.1",
+    "ol": "^6.14.1",
+    "rxjs": "^7.5.5",
+    "xlsx": "^0.18.5",
+    "zone.js": "^0.11.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "15.2.5",
+    "@angular/compiler-cli": "15.1.4",
+    "@types/google.maps": "^3.49.1",
+    "typescript": "^4.9.5"
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
+  }
+}

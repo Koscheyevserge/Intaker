@@ -1,0 +1,39 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "module": "esnext",
+    "emitBOM": true,
+    "skipLibCheck": true,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "target": "ES2022",
+    "typeRoots": [ "node_modules/@types" ],
+    "lib": [ "es2017", "dom" ],
+    "types": [ "googlemaps" ],
+    "baseUrl": "src",
+    "paths": {
+      "@services": [ "modules/services" ],
+      "@layout": [ "app/layout" ],
+      "@core": [ "modules/core" ],
+      "@workspaces": [ "modules/workspaces" ],
+      "@modals": [ "modules/core/modals" ],
+      "@models": [ "models" ],
+      "@pipes": [ "modules/core/pipes" ],
+      "@guards": [ "modules/workspaces/guards" ],
+      "@base": [ "modules/core/components" ],
+      "@odata": [ "modules/odata" ],
+      "@agm": [ "modules/agm" ],
+      "@const": [ "modules/core/const.ts" ],
+      "@utils": [ "utils" ]
+    },
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+  }
+}
